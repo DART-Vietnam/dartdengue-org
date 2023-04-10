@@ -2,13 +2,13 @@
 </script>
 
 <!-- mt-20 for navbar -->
-<div class="mt-20 p-10">
+<div class="mt-20">
 	<div class="align-middle h-[calc(100vh_*_0.6)]">
 		<div class="h-full bg-kom-1 bg-cover bg-center bg-no-repeat w-full" />
 	</div>
-	<div class="mt-5">
+	<div class="mt-5 pb-10 px-14">
 		<div class="font-bold text-6xl ml-3 mb-5">About the project</div>
-		<div class="text-justify">
+		<div class="text-justify text-lg">
 			This project will integrate multiple high-resolution data sources (including entomological,
 			environmental, human demographic, socio-economic and behavioural and intervention data) with
 			epidemiological and meteorological modelling to develop a dengue outbreak forecasting tool.
