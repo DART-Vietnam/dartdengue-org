@@ -2,3 +2,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	html {
+		@apply font-oucru;
+	}
+
+	@font-face {
+		font-family: 'Foundry Sterling';
+		src: url('/fonts/FoundrySterling-BookItalic.otf');
+		font-weight: normal;
+		font-display: swap;
+        font-style: italic;
+	}
+
+	@font-face {
+		font-family: 'Foundry Sterling';
+		src: url('/fonts/FoundrySterling-Demi.otf');
+		font-weight: bold;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: 'Foundry Sterling';
+		src: url('/fonts/FoundrySterling-ExtraBold.otf');
+		font-weight: bolder;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: 'Foundry Sterling';
+		src: url('/fonts/FoundrySterling-Light.otf');
+		font-weight: lighter;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: 'Foundry Sterling';
+		src: url('/fonts/FoundrySterling-Medium.otf');
+		font-weight: normal;
+		font-display: swap;
+	}
+}
+
+@layer components {
+	.navbar-text-current {
+		@apply block font-bold rounded p-0 bg-blue-700 md:bg-transparent text-oxfordBlue dark:text-white;
+	}
+
+	.navbar-text {
+		@apply block text-gray-400 font-bold rounded p-0 hover:bg-transparent hover:text-blue-800 dark:hover:text-white dark:text-gray-400 dark:hover:bg-transparent dark:border-gray-700;
+	}
+}
