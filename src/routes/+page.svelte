@@ -2,8 +2,9 @@
 </script>
 
 <!-- mt-20 for navbar -->
-<div class="mt-20">
-	<div class="align-middle h-[calc(100vh_*_0.6)]">
+<!-- h-[calc(100vh_*_0.6)] -->
+<div class="h-screen">
+	<div class="align-middle h-full">
 		<div class="h-full bg-kom-1 bg-cover bg-center bg-no-repeat w-full" />
 	</div>
 	<div class="mt-5 pb-10 px-14">
