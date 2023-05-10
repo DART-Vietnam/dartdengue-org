@@ -7,7 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'oxfordBlue': '#031D40'
+      },
       backgroundImage: {
+        'dart-logo': "url('/dart_oucru.png')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
