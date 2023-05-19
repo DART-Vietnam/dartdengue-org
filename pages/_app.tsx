@@ -1,4 +1,6 @@
+import Layout from "@/components/layout";
 import "../styles/globals.css";
+import type { AppProps } from "next/app";
 import localFont from "next/font/local";
 
 const foundrySterling = localFont({
@@ -27,10 +29,12 @@ const foundrySterling = localFont({
   ],
 });
 
-export default function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <main className={foundrySterling.className}>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </main>
   );
 }
