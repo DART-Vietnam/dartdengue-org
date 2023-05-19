@@ -67,7 +67,7 @@ export default function People() {
               {people.map((person) => (
                 <li key={person.name}>
                   <div className="flex items-center space-x-4 lg:space-x-6">
-                    <Image
+                    <img
                       className="w-16 h-16 rounded-full lg:w-20 lg:h-20"
                       src={person.imageUrl}
                       alt=""
