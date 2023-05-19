@@ -1,0 +1,89 @@
+import Link from "next/link";
+
+const people = [
+  {
+    title: "Associate Professor",
+    name: "Sophie Yacoub",
+    role: "Principal Investigator - Dengue",
+    imageUrl:
+      "https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
+  },
+  {
+    title: "Dr.",
+    name: "Marc Choisy",
+    role: "Principal Investigator - Math Modelling",
+    imageUrl:
+      "https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
+  },
+  {
+    title: "Dr.",
+    name: "Sarah Sparrow",
+    role: "Principal Investigator - Climatology",
+    imageUrl:
+      "https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
+  },
+  {
+    title: "Associate Professor",
+    name: "Moritz Kraemer",
+    role: "Principal Investigator - Genomic",
+    imageUrl:
+      "https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
+  },
+  {
+    title: "Mr.",
+    name: "Tuyen Huynh",
+    role: "PhD Student",
+    imageUrl:
+      "https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
+  },
+  {
+    title: "Mr.",
+    name: "Manh Nguyen",
+    role: "Project manager",
+    imageUrl:
+      "https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
+  },
+];
+
+export default function People() {
+  return (
+    <div className="bg-white">
+      <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-3 lg:gap-8">
+          <div className="space-y-5 sm:space-y-4">
+            <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
+              Meet the team
+            </h2>
+            <p className="text-xl text-gray-500">
+              Meet the people that are driving this new effort. <br />
+              <Link href="/team">
+                <u>Learn more</u>
+              </Link>
+            </p>
+          </div>
+          <div className="lg:col-span-2">
+            <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-12 sm:space-y-0 lg:gap-x-8">
+              {people.map((person) => (
+                <li key={person.name}>
+                  <div className="flex items-center space-x-4 lg:space-x-6">
+                    <img
+                      className="w-16 h-16 rounded-full lg:w-20 lg:h-20"
+                      src={person.imageUrl}
+                      alt=""
+                    />
+                    <div className="space-y-1 text-lg font-medium leading-6">
+                      <h3>
+                        {person.title} <b>{person.name}</b>
+                      </h3>
+                      <p className="text-indigo-600">{person.role}</p>
+                    </div>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
