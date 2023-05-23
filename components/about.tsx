@@ -1,4 +1,5 @@
 import { CameraIcon } from "@heroicons/react/solid";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -49,7 +50,14 @@ export default function About() {
             </svg>
             <div className="relative mx-auto text-base max-w-prose lg:max-w-none">
               <figure>
-                <div className="bg-center bg-no-repeat bg-cover rounded-lg shadow-lg h-96 aspect-w-12 aspect-h-7 lg:aspect-none bg-dart-kom2"></div>
+                <div className="shadow-lg h-96 aspect-w-12 aspect-h-7 lg:aspect-none">
+                  <Image
+                    src="/dart_kom2.jpg"
+                    alt=""
+                    fill
+                    className="object-cover object-center rounded-lg !relative"
+                  />
+                </div>
                 <figcaption className="flex mt-3 text-sm text-gray-500">
                   <CameraIcon
                     className="flex-none w-5 h-5 text-gray-400"

@@ -1,10 +1,19 @@
 import { Carousel } from "flowbite-react";
+import Image from "next/image";
 
 export default function MyCarousel() {
   return (
     <div className="p-6 h-[calc(100vh-10rem)]">
       <Carousel>
-        <div className="w-full h-full bg-center bg-no-repeat bg-cover bg-dart-kom1"></div>
+        <div className="w-full h-full">
+          <Image
+            src="/dart_kom1.jpg"
+            alt="DART team at the DART kick-off meeting"
+            fill
+            className="object-cover object-center"
+            priority={true}
+          />
+        </div>
         <div className="w-full h-full bg-blue-500"></div>
         <div className="w-full h-full bg-green-500"></div>
       </Carousel>
