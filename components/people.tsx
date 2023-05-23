@@ -12,7 +12,13 @@ export default function People() {
               Meet the team
             </h2>
             <p className="text-xl text-gray-500">
-              Meet the people that are driving this new effort. <br />
+              Meet the people that are driving this new effort. We are a
+              international multidisciplinary team with people from the Oxford
+              University Clinical Research Unit (OUCRU), The University of
+              Oxford, National Institute Of Hygiene And Epidemiology (NIHE), Ho
+              Chi Minh City Center for Disease Control (HCDC), and the
+              University of Science and Technology of Hanoi (USTH).
+              <br />
               <Link href="/team">
                 <u>Learn more</u>
               </Link>
