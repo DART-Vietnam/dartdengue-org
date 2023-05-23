@@ -35,7 +35,6 @@ export default function People() {
                       <h3>
                         {person.title} <b>{person.name}</b>
                       </h3>
-                      <p className="text-indigo-600">{person.role}</p>
                     </div>
                   </div>
                 </li>

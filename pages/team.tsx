@@ -28,9 +28,6 @@ export default function Team() {
                         <h3>
                           {person.title} <b>{person.name}</b>
                         </h3>
-                        <p className="text-base text-indigo-600">
-                          {person.role}
-                        </p>
                       </div>
                       <div className="text-lg">
                         <p className="text-gray-500">{person.bio}</p>
