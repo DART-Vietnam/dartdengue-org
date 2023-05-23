@@ -19,7 +19,7 @@ export default function Team() {
                       src={person.imageUrl}
                       alt={person.alt}
                       fill
-                      className="object-cover rounded-lg shadow-lg"
+                      className="object-cover object-center rounded-lg shadow-lg"
                     />
                   </div>
                   <div className="sm:col-span-2">

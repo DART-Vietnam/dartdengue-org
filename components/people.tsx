@@ -34,7 +34,7 @@ export default function People() {
                         src={person.imageUrl}
                         alt={person.alt}
                         fill
-                        className="object-cover rounded-full"
+                        className="object-cover object-center rounded-full"
                       />
                     </div>
                     <div className="space-y-1 text-lg font-medium leading-6">
