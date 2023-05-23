@@ -1,0 +1,88 @@
+const bios = [
+  {
+    title: "Associate Professor",
+    name: "Sophie Yacoub",
+    alt: "Assoc. Prof. Sophie Yacoub",
+    imageUrl: "/sophie-yacoub.jpg",
+    bio: "Sophie is the Dengue Research Group lead at OUCRU-Vietnam, appointed in 2018. She’s a Physician in Infectious Diseases and General Medicine and holds an honorary Consultant appointment at London North West University Healthcare NHS Trust in the UK. She holds a PhD from Imperial College London and an MSc from the London School of Hygiene and Tropical Medicine.",
+  },
+  {
+    title: "Dr.",
+    name: "Marc Choisy",
+    alt: "Dr. Marc Choisy",
+    imageUrl: "/marc-choisy.jpg",
+    bio: "Marc Choisy is the head of Mathematical Modelling at OUCRU in Ho Chi Minh city, Vietnam. He holds a MSc in Biostatistics, a MSc in Ecology & Evolution, and a PhD in Integrative Biology from the University of Montpellier, France. He is an Associate Editor of the PLoS Neglected Tropical Diseases journal and an honorary Associate Professor at the Hong Kong University (School of Public Health).",
+  },
+  {
+    title: "Dr.",
+    name: "Sarah Sparrow",
+    alt: "Dr. Sarah Sparrow",
+    imageUrl: "/sarah-sparrow.jpg",
+    bio: "Dr Sarah Sparrow is Deputy Course Director for the MSc in Energy Systems, and is climateprediction.net (CPDN) Programme Coordinator at Oxford e-Research Centre. She is experienced in data driven coupling of climate model output to impact models and lead research proposals in this area. Her responsibilities include application development, support and data management.",
+  },
+  {
+    title: "Associate Professor",
+    name: "Moritz Kraemer",
+    alt: "Assoc. Prof. Moritz Kraemer",
+    imageUrl: "/moritz-kraemer.jpg",
+    bio: "Moritz finished his DPhil in 2017 and is now a Branco Weiss Research Fellow in the Department of Biology at the University of Oxford and a Lead Researcher on the Oxford Martin Programme on Pandemic Genomics. Moritz's research addresses questions related to the spatial spread of infectious diseases. Specifically he is concerned with the integration of epidemiological, spatial and genomic data and how novel insights can be best used to reduce the burden of infectious pathogens through effective intervention strategies.",
+  },
+  {
+    title: "Mr.",
+    name: "Tuyen Huynh",
+    alt: "Mr. Tuyen Huynh",
+    imageUrl: "/tuyen-huynh.jpg",
+    bio: "x",
+  },
+  {
+    title: "Mr.",
+    name: "Manh Nguyen",
+    alt: "Mr. Manh Nguyen",
+    imageUrl: "/manh-nguyen.jpg",
+    bio: "x",
+  },
+  {
+    title: "Professor",
+    name: "Min Chen",
+    alt: "Prof. Min Chen",
+    imageUrl: "/min-chen.jpg",
+    bio: "Min Chen developed his academic career in Wales between 1984 and 2011. He previously held research and faculty positions at Swansea University (i.e., research officer from 1987, lecturer from 1990, senior lecturer from 1998, and full professor from 2001). He is currently professor of scientific visualization at Oxford University and a fellow of Pembroke College. His research interests include data visualization, data science, computer graphics, computer vision, and human-computer interaction.",
+  },
+  {
+    title: "Professor",
+    name: "David Wallom",
+    alt: "Prof. David Wallom",
+    imageUrl: "/david-wallom.jpg",
+    bio: "David Wallom is a Professor in Informatics and Associate Director - Innovation of the Oxford e-Research Centre, where he leads two separate research groups, Energy and Environmental ICT, and Advanced e-infrastructure & Cloud Computing. He has led over 55 research projects in areas such as Cloud utilisation, Cybersecurity, Smart Energy Grids, Research Data Management, Green IT, ICT Security and Institutional Repositories.",
+  },
+  {
+    title: "Dr.",
+    name: "Thai Pham",
+    alt: "Dr. Thai Pham",
+    imageUrl: "/thai-pham.jpg",
+    bio: "x",
+  },
+  {
+    title: "Associate Professor",
+    name: "Thanh Ngo-Duc",
+    alt: "Assoc. Prof. Thanh Ngo-Duc",
+    imageUrl: "/thanh-ngo-duc.jpg",
+    bio: "x",
+  },
+  {
+    title: "Dr.",
+    name: "Tung Nguyen",
+    alt: "Dr. Tung Nguyen",
+    imageUrl: "/tung-nguyen.jpg",
+    bio: "x",
+  },
+  {
+    title: "Dr.",
+    name: "Antje Weisheimer",
+    alt: "Dr. Antje Weisheimer",
+    imageUrl: "/antje.jpg",
+    bio: "x",
+  },
+];
+
+export default bios;

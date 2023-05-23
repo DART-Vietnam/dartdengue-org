@@ -1,50 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-
-const people = [
-  {
-    title: "Associate Professor",
-    name: "Sophie Yacoub",
-    role: "Principal Investigator - Dengue",
-    imageUrl:
-      "https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
-  },
-  {
-    title: "Dr.",
-    name: "Marc Choisy",
-    role: "Principal Investigator - Math Modelling",
-    imageUrl:
-      "https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
-  },
-  {
-    title: "Dr.",
-    name: "Sarah Sparrow",
-    role: "Principal Investigator - Climatology",
-    imageUrl:
-      "https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
-  },
-  {
-    title: "Associate Professor",
-    name: "Moritz Kraemer",
-    role: "Principal Investigator - Genomic",
-    imageUrl:
-      "https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
-  },
-  {
-    title: "Mr.",
-    name: "Tuyen Huynh",
-    role: "PhD Student",
-    imageUrl:
-      "https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
-  },
-  {
-    title: "Mr.",
-    name: "Manh Nguyen",
-    role: "Project manager",
-    imageUrl:
-      "https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
-  },
-];
+import bios from "@/components/team-bios";
 
 export default function People() {
   return (
@@ -64,7 +20,7 @@ export default function People() {
           </div>
           <div className="lg:col-span-2">
             <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-12 sm:space-y-0 lg:gap-x-8">
-              {people.map((person) => (
+              {bios.map((person) => (
                 <li key={person.name}>
                   <div className="flex items-center space-x-4 lg:space-x-6">
                     <img
