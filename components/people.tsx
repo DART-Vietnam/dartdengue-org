@@ -23,11 +23,14 @@ export default function People() {
               {bios.map((person) => (
                 <li key={person.name}>
                   <div className="flex items-center space-x-4 lg:space-x-6">
-                    <img
-                      className="w-16 h-16 rounded-full lg:w-20 lg:h-20"
-                      src={person.imageUrl}
-                      alt=""
-                    />
+                    <div className="relative w-16 h-16 lg:w-20 lg:h-20">
+                      <Image
+                        src={person.imageUrl}
+                        alt={person.alt}
+                        fill
+                        className="object-cover rounded-full"
+                      />
+                    </div>
                     <div className="space-y-1 text-lg font-medium leading-6">
                       <h3>
                         {person.title} <b>{person.name}</b>
