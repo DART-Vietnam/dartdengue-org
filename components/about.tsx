@@ -55,7 +55,7 @@ export default function About() {
                     src="/dart_kom2.jpg"
                     alt=""
                     fill
-                    className="object-cover object-center rounded-lg !relative"
+                    className="object-cover object-center rounded-lg lg:!relative"
                   />
                 </div>
                 <figcaption className="flex mt-3 text-sm text-gray-500">
@@ -81,7 +81,7 @@ export default function About() {
                 multidisciplinary team.
               </p>
             </div>
-            <div>
+            <div className="mx-auto text-base max-w-prose lg:max-w-none">
               <h4 className="mt-10 text-xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-2xl">
                 Background and aims
               </h4>
