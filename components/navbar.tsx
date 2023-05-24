@@ -35,7 +35,7 @@ export default function Navbar() {
                 </Disclosure.Button>
               </div>
               <div className="flex items-center justify-center flex-1 sm:items-stretch sm:justify-start h-5/6">
-                <div className="flex items-center flex-shrink-0">
+                <div className="flex items-center flex-shrink-0 h-full">
                   <div className="w-24 h-full bg-center bg-no-repeat bg-contain lg:hidden bg-dart-logo"></div>
                   <div className="hidden w-24 h-full bg-center bg-no-repeat bg-contain lg:block bg-dart-logo"></div>
                 </div>
