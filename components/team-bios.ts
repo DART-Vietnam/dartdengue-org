@@ -18,7 +18,7 @@ const bios = [
     name: "Sarah Sparrow",
     alt: "Dr. Sarah Sparrow",
     imageUrl: "/sarah-sparrow.jpg",
-    bio: "Dr Sarah Sparrow is Deputy Course Director for the MSc in Energy Systems, and is climateprediction.net (CPDN) Programme Coordinator at Oxford e-Research Centre. She is experienced in data driven coupling of climate model output to impact models and lead research proposals in this area. Her responsibilities include application development, support and data management.",
+    bio: "Sarah holds a DPhil in Atmospheric Physics from the University of Oxford where she is currently the programme coordinator for the climateprediction.net distributed computing project and deputy course director of the Energy Systems MSc. Her research centres on extreme weather events and their impacts, with a focus on using data driven coupling between meteorological and impact models to answer societally relevant questions across a broad range of sectors including health, hydrology, energy and finance.",
   },
   {
     title: "Associate Professor",
