@@ -25,7 +25,7 @@ const bios = [
     name: "Moritz Kraemer",
     alt: "Assoc. Prof. Moritz Kraemer",
     imageUrl: "/moritz-kraemer.jpg",
-    bio: "Moritz finished his DPhil in 2017 and is now a Branco Weiss Research Fellow in the Department of Biology at the University of Oxford and a Lead Researcher on the Oxford Martin Programme on Pandemic Genomics. Moritz's research addresses questions related to the spatial spread of infectious diseases. Specifically he is concerned with the integration of epidemiological, spatial and genomic data and how novel insights can be best used to reduce the burden of infectious pathogens through effective intervention strategies.",
+    bio: "I am an Associate Professor at the Department of Biology, Pandemic Sciences Institute, and AI and Machine Learning Fellow at Reuben College. My lab members and I take novel, collaborative and interdisciplinary approaches to investigating the dynamics and evolution of infectious diseases, focussing on epidemiologically relevant questions to control them. We approach these problems by developing novel methods that combine techniques from mathematical modelling, statistical inference (including AI and Machine Learning), and phylodynamics. I hold a DPhil in Statistical Epidemiology from the University of Oxford, taught courses at MIT, HKU & Harvard University.",
   },
   {
     title: "Mr.",
