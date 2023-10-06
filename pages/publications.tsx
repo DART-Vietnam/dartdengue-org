@@ -16,7 +16,7 @@ export default function Publications() {
           </p>
         </div>
         <div className="grid gap-16 pt-12 mt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
-          {posts.map((post) => (
+          {posts.toSorted(dateComp).map((post) => (
             <div key={post.title}>
               <div>
                 <a href={post.category.href} className="inline-block">
