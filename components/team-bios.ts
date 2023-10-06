@@ -56,7 +56,7 @@ const bios = [
     bio: "David is a Professor in Informatics and Associate Director - Innovation of the Oxford e-Research Centre, where he leads two separate research groups, Energy and Environmental ICT, and Advanced e-infrastructure & Cloud Computing. He has led over 55 research projects in areas such as Cloud utilisation, Cybersecurity, Smart Energy Grids, Research Data Management, Green IT, ICT Security and Institutional Repositories.",
   },
   {
-    title: "Dr.",
+    title: "Assoc. Prof.",
     name: "Thai Pham",
     alt: "Dr. Thai Pham",
     imageUrl: "/thai-pham.jpg",
