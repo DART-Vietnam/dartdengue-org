@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'oxfordBlue': '#031D40'
+        'oxfordBlue': '#002147'
       },
       backgroundImage: {
         'dart-logo': "url('/dart_logo.png')",
