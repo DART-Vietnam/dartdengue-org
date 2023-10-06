@@ -11,7 +11,7 @@ const bios = [
     name: "Marc Choisy",
     alt: "Dr. Marc Choisy",
     imageUrl: "/marc-choisy.jpg",
-    bio: "Marc Choisy is the head of Mathematical Modelling at OUCRU in Ho Chi Minh city, Vietnam. He holds a MSc in Biostatistics, a MSc in Ecology & Evolution, and a PhD in Integrative Biology from the University of Montpellier, France. He is an Associate Editor of the PLoS Neglected Tropical Diseases journal and an honorary Associate Professor at the Hong Kong University (School of Public Health).",
+    bio: "Marc is the head of Mathematical Modelling at OUCRU in Ho Chi Minh city, Vietnam. He holds a MSc in Biostatistics, a MSc in Ecology & Evolution, and a PhD in Integrative Biology from the University of Montpellier, France. He is an Associate Editor of the PLoS Neglected Tropical Diseases journal and an honorary Associate Professor at the Hong Kong University (School of Public Health).",
   },
   {
     title: "Dr.",
@@ -21,11 +21,11 @@ const bios = [
     bio: "Sarah holds a DPhil in Atmospheric Physics from the University of Oxford where she is currently the programme coordinator for the climateprediction.net distributed computing project and deputy course director of the Energy Systems MSc. Her research centres on extreme weather events and their impacts, with a focus on using data driven coupling between meteorological and impact models to answer societally relevant questions across a broad range of sectors including health, hydrology, energy and finance.",
   },
   {
-    title: "Associate Professor",
+    title: "Assoc. Prof.",
     name: "Moritz Kraemer",
     alt: "Assoc. Prof. Moritz Kraemer",
     imageUrl: "/moritz-kraemer.jpg",
-    bio: "I am an Associate Professor at the Department of Biology, Pandemic Sciences Institute, and AI and Machine Learning Fellow at Reuben College. My lab members and I take novel, collaborative and interdisciplinary approaches to investigating the dynamics and evolution of infectious diseases, focussing on epidemiologically relevant questions to control them. We approach these problems by developing novel methods that combine techniques from mathematical modelling, statistical inference (including AI and Machine Learning), and phylodynamics. I hold a DPhil in Statistical Epidemiology from the University of Oxford, taught courses at MIT, HKU & Harvard University.",
+    bio: "Moritz is an Associate Professor at the Department of Biology, Pandemic Sciences Institute, and AI and Machine Learning Fellow at Reuben College. My lab members and I take novel, collaborative and interdisciplinary approaches to investigating the dynamics and evolution of infectious diseases, focussing on epidemiologically relevant questions to control them. We approach these problems by developing novel methods that combine techniques from mathematical modelling, statistical inference (including AI and Machine Learning), and phylodynamics. I hold a DPhil in Statistical Epidemiology from the University of Oxford, taught courses at MIT, HKU & Harvard University.",
   },
   {
     title: "Mr.",
@@ -42,18 +42,18 @@ const bios = [
     bio: "x",
   },
   {
-    title: "Professor",
+    title: "Prof.",
     name: "Min Chen",
     alt: "Prof. Min Chen",
     imageUrl: "/min-chen.jpg",
     bio: "Min Chen developed his academic career in Wales between 1984 and 2011. He previously held research and faculty positions at Swansea University (i.e., research officer from 1987, lecturer from 1990, senior lecturer from 1998, and full professor from 2001). He is currently professor of scientific visualization at Oxford University and a fellow of Pembroke College. His research interests include data visualization, data science, computer graphics, computer vision, and human-computer interaction.",
   },
   {
-    title: "Professor",
+    title: "Prof.",
     name: "David Wallom",
     alt: "Prof. David Wallom",
     imageUrl: "/david-wallom.jpg",
-    bio: "David Wallom is a Professor in Informatics and Associate Director - Innovation of the Oxford e-Research Centre, where he leads two separate research groups, Energy and Environmental ICT, and Advanced e-infrastructure & Cloud Computing. He has led over 55 research projects in areas such as Cloud utilisation, Cybersecurity, Smart Energy Grids, Research Data Management, Green IT, ICT Security and Institutional Repositories.",
+    bio: "David is a Professor in Informatics and Associate Director - Innovation of the Oxford e-Research Centre, where he leads two separate research groups, Energy and Environmental ICT, and Advanced e-infrastructure & Cloud Computing. He has led over 55 research projects in areas such as Cloud utilisation, Cybersecurity, Smart Energy Grids, Research Data Management, Green IT, ICT Security and Institutional Repositories.",
   },
   {
     title: "Dr.",
@@ -63,7 +63,7 @@ const bios = [
     bio: "x",
   },
   {
-    title: "Associate Professor",
+    title: "Assoc. Prof.",
     name: "Thanh Ngo-Duc",
     alt: "Assoc. Prof. Thanh Ngo-Duc",
     imageUrl: "/thanh-ngo-duc.jpg",
