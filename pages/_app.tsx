@@ -2,6 +2,7 @@ import Layout from "@/components/layout";
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import localFont from "next/font/local";
+import Head from "next/head";
 
 const foundrySterling = localFont({
   src: [
@@ -31,10 +32,15 @@ const foundrySterling = localFont({
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <main className={foundrySterling.className}>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
-    </main>
+    <>
+      <Head>
+        <title>Dengue Advanced Readiness Tools</title>
+      </Head>
+      <main className={foundrySterling.className}>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </main>
+    </>
   );
 }
