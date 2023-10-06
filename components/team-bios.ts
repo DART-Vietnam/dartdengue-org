@@ -1,6 +1,6 @@
 const bios = [
   {
-    title: "Associate Professor",
+    title: "Assoc. Prof.",
     name: "Sophie Yacoub",
     alt: "Assoc. Prof. Sophie Yacoub",
     imageUrl: "/sophie-yacoub.jpg",
