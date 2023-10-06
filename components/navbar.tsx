@@ -9,7 +9,7 @@ const navigation = [
   { name: "Team and partners", href: "/team" },
   { name: "Work packages", href: "#" },
   { name: "Publications", href: "/publications" },
-  { name: "News and conferences", href: "#" },
+  { name: "News and conferences", href: "/news" },
 ];
 
 export default function Navbar() {
