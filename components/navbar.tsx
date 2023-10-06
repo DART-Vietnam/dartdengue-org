@@ -2,6 +2,7 @@ import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import classNames from "@/util/classNames";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -9,10 +10,6 @@ const navigation = [
   { name: "Reports", href: "#" },
   { name: "Get involved", href: "#" },
 ];
-
-function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(" ");
-}
 
 export default function Navbar() {
   const router = useRouter();
