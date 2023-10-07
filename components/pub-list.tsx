@@ -1,4 +1,5 @@
 import pub from "@/util/pub";
+import dateComp from "@/util/dateComp";
 
 const colorCode = {
   abstract: "bg-indigo-100 text-indigo-800",
@@ -57,5 +58,7 @@ const posts: pub[] = [
     },
   },
 ];
+
+posts.sort(dateComp);
 
 export default posts;
