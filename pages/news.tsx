@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const posts = [
   {
     title: "Dengue Advanced Readiness Tools (DART)",
@@ -53,9 +55,10 @@ export default function NewsAndConf() {
               key={post.title}
               className="flex flex-col overflow-hidden rounded-lg shadow-lg"
             >
-              <div className="flex-shrink-0">
-                <img
-                  className="object-cover w-full h-48"
+              <div className="flex-shrink-0 w-full h-48 relative">
+                <Image
+                  fill
+                  className="object-cover"
                   src={post.imageUrl}
                   alt=""
                 />

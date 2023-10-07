@@ -1,6 +1,7 @@
 import classNames from "@/util/classNames";
 import posts from "@/components/pub-list";
 import dateComp from "@/util/dateComp";
+import Image from "next/image";
 
 export default function Publications() {
   return (
@@ -42,11 +43,14 @@ export default function Publications() {
                 <div className="flex-shrink-0">
                   <a href={post.author.href}>
                     <span className="sr-only">{post.author.name}</span>
-                    <img
-                      className="w-10 h-10 rounded-full"
-                      src={post.author.imageUrl}
-                      alt=""
-                    />
+                    <div className="relative w-10 h-10">
+                      <Image
+                        fill
+                        className="object-cover object-center rounded-full"
+                        src={post.author.imageUrl}
+                        alt=""
+                      />
+                    </div>
                   </a>
                 </div>
                 <div className="ml-3">
