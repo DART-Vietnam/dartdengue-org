@@ -34,6 +34,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
+        <html lang="en"></html>
         <title>Dengue Advanced Readiness Tools</title>
         <meta
           name="description"
