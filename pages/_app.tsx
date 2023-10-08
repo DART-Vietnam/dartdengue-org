@@ -35,6 +35,23 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Dengue Advanced Readiness Tools</title>
+        <meta
+          name="description"
+          content="DART - Dengue Advanced Readiness Tools, is a multifaceted dengue outbreak forecasting system. It is an ongoing project by Oxford University Clinical Research Unit (OUCRU), funded by the Wellcome Trust. The project is supported by a international multidisciplinary team."
+          key="desc"
+        />
+        <meta
+          property="og:title"
+          content="Dengue Advanced Readiness Tools"
+        />
+        <meta
+          property="og:description"
+          content="DART - Dengue Advanced Readiness Tools, is a multifaceted dengue outbreak forecasting system"
+        />
+        <meta
+          property="og:image"
+          content="/dart_logo.png"
+        />
       </Head>
       <main className={foundrySterling.className}>
         <Layout>
