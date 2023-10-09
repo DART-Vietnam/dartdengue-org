@@ -3,6 +3,7 @@ import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import localFont from "next/font/local";
 import Head from "next/head";
+import { Analytics } from '@vercel/analytics/react';
 
 const foundrySterling = localFont({
   src: [
@@ -56,6 +57,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       <main className={foundrySterling.className}>
         <Layout>
           <Component {...pageProps} />
+          <Analytics />
         </Layout>
       </main>
     </>
