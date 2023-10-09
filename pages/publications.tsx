@@ -1,6 +1,7 @@
 import classNames from "@/util/classNames";
 import posts from "@/components/pub-list";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Publications() {
   return (
@@ -19,7 +20,7 @@ export default function Publications() {
           {posts.map((post) => (
             <div key={post.title} className="hover:shadow-2xl rounded-lg p-5">
               <div>
-                <a href={post.category.href} className="inline-block">
+                <Link href={post.category.href} className="inline-block">
                   <span
                     className={classNames(
                       post.category.color,
@@ -28,19 +29,19 @@ export default function Publications() {
                   >
                     {post.category.name}
                   </span>
-                </a>
+                </Link>
               </div>
-              <a href={post.href} className="block mt-4" target="_blank">
+              <Link href={post.href} className="block mt-4" target="_blank">
                 <p className="text-xl font-semibold text-gray-900">
                   {post.title}
                 </p>
                 <p className="mt-3 text-base text-gray-500">
                   {post.description}
                 </p>
-              </a>
+              </Link>
               <div className="flex items-center mt-6">
                 <div className="flex-shrink-0">
-                  <a href="/team">
+                  <Link href="/team">
                     <span className="sr-only">{post.author.name}</span>
                     <div className="relative w-10 h-10">
                       <Image
@@ -50,11 +51,11 @@ export default function Publications() {
                         alt=""
                       />
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="ml-3">
                   <p className="text-sm font-medium text-gray-900">
-                    <a href="/team">{post.author.name}</a>
+                    <Link href="/team">{post.author.name}</Link>
                   </p>
                   <div className="flex space-x-1 text-sm text-gray-500">
                     <time dateTime={post.datetime}>{post.date}</time>

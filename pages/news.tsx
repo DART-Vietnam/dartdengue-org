@@ -1,5 +1,6 @@
 import Image from "next/image";
 import posts from "@/components/news-list";
+import Link from "next/link";
 
 export default function NewsAndConf() {
   return (
@@ -32,14 +33,14 @@ export default function NewsAndConf() {
               </div>
               <div className="flex flex-col justify-between flex-1 p-6 bg-white">
                 <div className="flex-1">
-                  <a href={post.href} className="block mt-2">
+                  <Link href={post.href} className="block mt-2">
                     <p className="text-xl font-semibold text-gray-900">
                       {post.title}
                     </p>
                     <p className="mt-3 text-base text-gray-500">
                       {post.description}
                     </p>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
