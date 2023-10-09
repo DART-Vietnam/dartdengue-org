@@ -134,9 +134,9 @@ const bios = [
   }, 
   {
     title: "Mr.",
-    name: "Matt Wright",
-    alt: "Mr. Matt Wright",
-    imageUrl: "matt-wright.jpeg",
+    name: "Matthew Wright",
+    alt: "Mr. Matthew Wright",
+    imageUrl: "matthew-wright.jpeg",
     bio: "Matthew is a DPhil Student at the University of Oxford, working on improving seasonal forecasting. He is supervised by Tim Woollings and Antje Weisheimer.",
   },
 ];
