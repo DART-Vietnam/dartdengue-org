@@ -4,7 +4,15 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'images.unsplash.com',
+                hostname: 'www.ox.ac.uk',
+            },
+            {
+                protocol: 'https',
+                hostname: 'www.ndm.ox.ac.uk',
+            },
+            {
+                protocol: 'https',
+                hostname: 'www.oucru.org',
             },
         ],
     },

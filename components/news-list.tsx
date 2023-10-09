@@ -7,8 +7,7 @@ const posts = [
             "This project explores if and how remote climatic drivers may affect dengue outbreaks in Viet Nam, leading to a greater understanding of weather and climate ...",
         date: "Mar 16, 2020",
         datetime: "2020-03-16",
-        imageUrl:
-            "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+        imageUrl: "https://www.oucru.org/wp-content/uploads/2023/03/jet-dela-cruz-ZX2olZtoD10-unsplash-min-scaled.jpg",
     },
     {
         title:
@@ -18,8 +17,7 @@ const posts = [
             "DART (Dengue Advanced Readiness Tools), a new project led by Oxford University, has received funding from Wellcome to use climate data to ...",
         date: "Feb 3, 2023",
         datetime: "2023-02-03",
-        imageUrl:
-            "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+        imageUrl: "https://www.ox.ac.uk/sites/files/oxford/styles/ow_medium_feature/s3/field/field_image_main/Dengue%20mosquito%20RESIZED%202.jpg?itok=qhYMgBn8",
     },
     {
         title: " Multidisciplinary dengue forecasting project launches in Vietnam ",
@@ -28,8 +26,7 @@ const posts = [
             "DART (Dengue Advanced Readiness Tools), is a new project supported by Wellcome to use climate data to better predict and prepare for ...",
         date: "Feb 7, 2023",
         datetime: "2023-02-07",
-        imageUrl:
-            "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+        imageUrl: "https://www.ndm.ox.ac.uk/images/news/mosquito/responsive_image?ratio=image&scale=w760",
     },
 ];
 
