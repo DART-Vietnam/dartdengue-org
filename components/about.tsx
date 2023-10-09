@@ -75,7 +75,7 @@ export default function About() {
                 DART - Dengue Advanced Readiness Tools, is a multifaceted dengue
                 outbreak forecasting system. It is an ongoing project by Oxford
                 University Clinical Research Unit (OUCRU), funded by the
-                Wellcome Trust. The project is supported by a international
+                Wellcome Trust. The project is supported by an international
                 multidisciplinary team.
               </p>
             </div>
@@ -103,10 +103,10 @@ export default function About() {
                 health practitioners, and interested research scientists.
               </p>
               <p>
-                The project will start out with 2 examplar cities in Vietnam: Ho
+                The project will start out with 2 exemplar cities in Vietnam: Ho
                 Chi Minh City and Hanoi. The spatial resolution for the
                 forecasts will be districts (administrative level 2) and time
-                scales will range from real-time to decadal.
+                scales will range from real-time to 4-week ahead.
               </p>
             </div>
           </div>
