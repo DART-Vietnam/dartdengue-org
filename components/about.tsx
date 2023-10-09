@@ -7,11 +7,9 @@ export default function About() {
       <div className="relative px-4 py-10 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="absolute top-0 bottom-0 hidden w-screen lg:block bg-gray-50 left-3/4" />
         <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
-          <div>
-            <h3 className="text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
-              About the project
-            </h3>
-          </div>
+          <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
+            About the project
+          </h2>
         </div>
         <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
           <div className="relative flex items-center lg:row-start-1 lg:col-start-2 ">

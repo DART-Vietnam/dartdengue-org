@@ -11,7 +11,7 @@ export default function People() {
             <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
               Meet the team
             </h2>
-            <p className="text-xl text-gray-500">
+            <p className="text-lg text-gray-500">
               Meet the people that are driving this new effort. We are a
               international multidisciplinary team with people from the Oxford
               University Clinical Research Unit (OUCRU), The University of
