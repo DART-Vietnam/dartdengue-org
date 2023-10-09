@@ -49,8 +49,8 @@ const posts: pub[] = [
     },
     description:
       "The 12th International Conference on Complex Networks and their Applications",
-    date: "Oct 2023",
-    datetime: "2023-10-01",
+    date: "Nov 28, 2023",
+    datetime: "2023-11-28",
     author: {
       name: "Phong Hong",
       href: "#",
