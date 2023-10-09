@@ -35,7 +35,7 @@ const posts: pub[] = [
     author: {
       name: "Vi Thuy Tran",
       href: "#",
-      imageUrl: "",
+      imageUrl: "/vi-tran.jpg",
     },
   },
   {
@@ -54,7 +54,7 @@ const posts: pub[] = [
     author: {
       name: "Phong Hong",
       href: "#",
-      imageUrl: "",
+      imageUrl: "/phong-hong.jpeg",
     },
   },
 ];
