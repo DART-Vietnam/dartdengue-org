@@ -83,6 +83,27 @@ const bios = [
     imageUrl: "/antje.jpg",
     bio: "x",
   },
+  {
+    title: "Ms.",
+    name: "Vi Tran-Thuy",
+    alt: "Ms. Vi Tran",
+    imageUrl: "/vi-tran.jpg",
+    bio: "Vi is a senior research assistant working in the dengue research group at Oxford University Clinical Research Unit, Ho Chi Minh City, Vietnam. Her primary research interest focuses on the investigating evolution of dengue virus and its transmission dynamic",
+  },
+  {
+    title: "Dr.",
+    name: "Huy Nguyen-Quang",
+    alt: "Dr. Huy Nguyen-Quang",
+    imageUrl: "",
+    bio: "x",
+  },
+  {
+    title: "Mr.",
+    name: "Phong Hong",
+    alt: "Mr. Phong Hong",
+    imageUrl: "phong-hong.jpeg",
+    bio: "x",
+  },
 ];
 
 export default bios;
