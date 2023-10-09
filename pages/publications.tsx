@@ -40,7 +40,7 @@ export default function Publications() {
               </a>
               <div className="flex items-center mt-6">
                 <div className="flex-shrink-0">
-                  <a href={post.author.href}>
+                  <a href="/team">
                     <span className="sr-only">{post.author.name}</span>
                     <div className="relative w-10 h-10">
                       <Image
@@ -54,7 +54,7 @@ export default function Publications() {
                 </div>
                 <div className="ml-3">
                   <p className="text-sm font-medium text-gray-900">
-                    <a href={post.author.href}>{post.author.name}</a>
+                    <a href="/team">{post.author.name}</a>
                   </p>
                   <div className="flex space-x-1 text-sm text-gray-500">
                     <time dateTime={post.datetime}>{post.date}</time>

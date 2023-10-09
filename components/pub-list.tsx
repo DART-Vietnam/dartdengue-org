@@ -20,7 +20,6 @@ const posts: pub[] = [
     datetime: "2023-06-15",
     author: {
       name: "Tuyen Huynh Ngoc",
-      href: "/team",
       imageUrl: "/tuyen-huynh.jpg",
     },
   },
@@ -34,7 +33,6 @@ const posts: pub[] = [
     datetime: "2023-10-01",
     author: {
       name: "Vi Thuy Tran",
-      href: "#",
       imageUrl: "/vi-tran.jpg",
     },
   },
@@ -53,7 +51,6 @@ const posts: pub[] = [
     datetime: "2023-11-28",
     author: {
       name: "Phong Hong",
-      href: "#",
       imageUrl: "/phong-hong.jpeg",
     },
   },

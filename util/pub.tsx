@@ -11,7 +11,6 @@ interface pub {
   datetime: string;
   author: {
     name: string;
-    href: string;
     imageUrl: string;
   };
 }
