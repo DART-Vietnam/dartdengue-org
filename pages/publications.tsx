@@ -17,7 +17,7 @@ export default function Publications() {
         </div>
         <div className="grid gap-16 pt-12 mt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
           {posts.map((post) => (
-            <div key={post.title}>
+            <div key={post.title} className="hover:shadow-2xl rounded-lg p-5">
               <div>
                 <a href={post.category.href} className="inline-block">
                   <span
