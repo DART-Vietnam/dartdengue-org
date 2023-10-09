@@ -117,7 +117,7 @@ const bios = [
     alt: "Dr. Huy Nguyen-Quang",
     imageUrl: "",
     bio: "x",
-  }, 
+  },
   {
     title: "Ms.",
     name: "Lucy Main",
@@ -129,14 +129,14 @@ const bios = [
     title: "Mr.",
     name: "Phong Hong",
     alt: "Mr. Phong Hong",
-    imageUrl: "phong-hong.jpeg",
+    imageUrl: "/phong-hong.jpeg",
     bio: "x",
-  }, 
+  },
   {
     title: "Mr.",
     name: "Matthew Wright",
     alt: "Mr. Matthew Wright",
-    imageUrl: "matthew-wright.jpeg",
+    imageUrl: "/matthew-wright.jpeg",
     bio: "Matthew is a DPhil Student at the University of Oxford, working on improving seasonal forecasting. He is supervised by Tim Woollings and Antje Weisheimer.",
   },
 ];

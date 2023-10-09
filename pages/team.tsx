@@ -1,16 +1,15 @@
 import Image from "next/image";
 import bios from "@/components/team-bios";
-import partners from "@/components/partners";
+import Partners from "@/components/partners";
 
 export default function Team() {
   return (
     <div className="bg-white">
-      <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-16">
+      <div className="px-4 sm:px-6 lg:px-8 py-12 mx-auto max-w-7xl lg:py-16">
         <div className="space-y-12">
           <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
             Meet our team
           </h2>
-
           <ul className="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
             {bios.map((person) => (
               <li key={person.name}>
@@ -39,31 +38,9 @@ export default function Team() {
               </li>
             ))}
           </ul>
-
-          <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Our partners and collaborators
-          </h2>
-          <ul className="grid items-center grid-cols-2 gap-5 lg:grid lg:grid-cols-5 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
-            {partners.map((partner) => (
-              <li key={partner.alt}>
-                <div
-                  className={
-                    "h-0 aspect-w-2 aspect-h-2 " +
-                    (partner.class ? partner.class : "")
-                  }
-                >
-                  <Image
-                    src={partner.src}
-                    alt={partner.alt}
-                    fill
-                    className="object-cover object-center shadow-lg"
-                  />
-                </div>
-              </li>
-            ))}
-          </ul>
         </div>
       </div>
+      <Partners />
     </div>
   );
 }
