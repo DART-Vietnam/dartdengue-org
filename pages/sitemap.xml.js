@@ -1,3 +1,5 @@
+const strftime = require("strftime")
+
 const ROOT_URL = 'dartdengue.org'
 const SITES = ["", "team", "publications", "news"]
 
@@ -9,7 +11,8 @@ function generateSiteMap(sites) {
         return `
        <url>
            <loc>https://${`${ROOT_URL}/${href}`}</loc>
-           <lastmod>${new Date()}</lastmod>
+           <lastmod>${strftime("%Y-%m-%d")}</lastmod> 
+          <changefreq>weekly</changefreq>
        </url>
      `;
       })
