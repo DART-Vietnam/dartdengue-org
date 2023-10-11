@@ -115,8 +115,8 @@ const bios = [
     title: "Dr.",
     name: "Huy Nguyen-Quang",
     alt: "Dr. Huy Nguyen-Quang",
-    imageUrl: "",
-    bio: "x",
+    imageUrl: "/huy-nguyen.jpeg",
+    bio: "Huy is a Clinician Researcher working in the dengue research group at Oxford University Clinical Research Unit, Ho Chi Minh City, Vietnam.",
   },
   {
     title: "Ms.",
