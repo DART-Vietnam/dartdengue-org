@@ -11,14 +11,14 @@ const bios = [
     name: "Marc Choisy",
     alt: "Dr. Marc Choisy",
     imageUrl: "/marc-choisy.jpg",
-    bio: "Marc is the head of Mathematical Modelling at OUCRU in Ho Chi Minh city, Vietnam. He holds a MSc in Biostatistics, a MSc in Ecology & Evolution, and a PhD in Integrative Biology from the University of Montpellier, France. He is an Associate Editor of the PLoS Neglected Tropical Diseases journal and an honorary Associate Professor at the Hong Kong University (School of Public Health).",
+    bio: "Marc is the Head of Mathematical Modelling at OUCRU in Ho Chi Minh city, Vietnam. He holds a MSc in Biostatistics, a MSc in Ecology & Evolution, and a PhD in Integrative Biology from the University of Montpellier, France. He is an Associate Editor of the PLoS Neglected Tropical Diseases journal and an honorary Associate Professor at the Hong Kong University (School of Public Health).",
   },
   {
     title: "Assoc. Prof.",
     name: "Thai Pham",
     alt: "Dr. Thai Pham",
     imageUrl: "/thai-pham.jpg",
-    bio: "x",
+    bio: "Thai is the Vice Head of Communicable Diseases Control and Prevention, National institute of Hygiene and Epidemiology, Vietnam.",
   },
   {
     title: "Dr.",
