@@ -47,7 +47,7 @@ export default function Navbar() {
                           router.pathname == item.href
                             ? "bg-gray-900 text-white"
                             : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                          "px-3 py-2 rounded-md font-bold self-center"
+                          "px-3 py-2 rounded-md font-bold self-center text-center"
                         )}
                         aria-current={
                           router.pathname == item.href ? "page" : undefined
