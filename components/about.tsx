@@ -80,9 +80,9 @@ export default function About() {
               </p>
             </div>
             <div className="mx-auto text-base max-w-prose lg:max-w-none">
-              <h4 className="mt-10 text-xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-2xl">
+              <h3 className="mt-10 text-xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-2xl">
                 Background and aims
-              </h4>
+              </h3>
             </div>
             <div className="mx-auto mt-5 prose text-justify text-gray-500 prose-indigo lg:max-w-none lg:row-start-1 lg:col-start-1">
               <p>
