@@ -24,7 +24,7 @@ export default function People() {
           </p>
         </div>
         <div className="lg:col-span-2">
-          <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-12 sm:space-y-0 lg:gap-x-8">
+          <ul className="space-y-12 grid grid-cols-1 place-items-center">
             {bios.map((person) => (
               (person.pi || person.copi) ?
                 (
