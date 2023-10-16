@@ -1,4 +1,7 @@
-const bios = [
+import bio from "@/util/bio";
+import bioAlphaComp from "@/util/bioAlphaComp";
+
+const bios: bio[] = [
   {
     title: "Dr.",
     name: "Sarah Sparrow",
@@ -143,5 +146,7 @@ const bios = [
     bio: "Matthew is a DPhil Student at the University of Oxford, working on improving seasonal forecasting. He is supervised by Tim Woollings and Antje Weisheimer.",
   },
 ];
+
+bios.sort(bioAlphaComp)
 
 export default bios;
