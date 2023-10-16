@@ -80,7 +80,7 @@ const bios: bio[] = [
     name: "Tuyen Huynh",
     alt: "Mr. Tuyen Huynh",
     imageUrl: "/tuyen-huynh.jpg",
-    bio: "x",
+    bio: "Tuyen is currently a DPhil student in Clinical Medicine registered with the Nuffield Department of Medicine, University of Oxford. His research focuses on combining mechanistic models and machine learning models to build a forecast model for DART. He received a Bachelor in Information Technology from RMIT University Vietnam in 2023.",
   },
   {
     title: "Mr.",
