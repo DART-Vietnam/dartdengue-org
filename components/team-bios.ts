@@ -1,5 +1,12 @@
 const bios = [
   {
+    title: "Dr.",
+    name: "Sarah Sparrow",
+    alt: "Dr. Sarah Sparrow",
+    imageUrl: "/sarah-sparrow.jpg",
+    bio: "Sarah holds a DPhil in Atmospheric Physics from the University of Oxford where she is currently the programme coordinator for the climateprediction.net distributed computing project and deputy course director of the Energy Systems MSc. Her research centres on extreme weather events and their impacts, with a focus on using data driven coupling between meteorological and impact models to answer societally relevant questions across a broad range of sectors including health, hydrology, energy and finance.",
+  },
+  {
     title: "Assoc. Prof.",
     name: "Sophie Yacoub",
     alt: "Assoc. Prof. Sophie Yacoub",
@@ -21,18 +28,11 @@ const bios = [
     bio: "Thai is the Vice Head of Communicable Diseases Control and Prevention, National institute of Hygiene and Epidemiology, Vietnam.",
   },
   {
-    title: "Dr.",
-    name: "Sarah Sparrow",
-    alt: "Dr. Sarah Sparrow",
-    imageUrl: "/sarah-sparrow.jpg",
-    bio: "Sarah holds a DPhil in Atmospheric Physics from the University of Oxford where she is currently the programme coordinator for the climateprediction.net distributed computing project and deputy course director of the Energy Systems MSc. Her research centres on extreme weather events and their impacts, with a focus on using data driven coupling between meteorological and impact models to answer societally relevant questions across a broad range of sectors including health, hydrology, energy and finance.",
-  },
-  {
     title: "Assoc. Prof.",
     name: "Thanh Ngo-Duc",
     alt: "Assoc. Prof. Thanh Ngo-Duc",
     imageUrl: "/thanh-ngo-duc.jpg",
-    bio: "x",
+    bio: "Thanh holds a PhD in Meteorology from the University of Paris VI in 2005. He is currently an Associate Professor, Co-Director of the Department of Space and Applications (DSA), and Co-Director of the LOTUS International Joint Laboratory (http://lotus.usth.edu.vn) at the University of Science and Technology of Hanoi (USTH). He is also a member of the Scientific Committee in Earth and Environmental Sciences of the Vietnam National Foundation for Science and Technology Development (NAFOSTED). Using modelling and remote sensing tools, his research focuses on the topics of natural disasters and climate change, including floods and heavy rainfall mechanisms.",
   },
   {
     title: "Assoc. Prof.",
@@ -60,7 +60,7 @@ const bios = [
     name: "Antje Weisheimer",
     alt: "Dr. Antje Weisheimer",
     imageUrl: "/antje.jpg",
-    bio: "x",
+    bio: "Antje is Senior Research Fellow of the National Centre for Atmospheric Science (NCAS) and a co-leader of the Predictability of Weather and Climate group. Her main research interests are model-based weather and climate forecasts and the uncertainties associated with them.",
   },
   {
     title: "Dr.",
@@ -88,7 +88,7 @@ const bios = [
     name: "Manh Nguyen",
     alt: "Mr. Manh Nguyen",
     imageUrl: "/manh-nguyen.jpg",
-    bio: "x",
+    bio: "Manh is the  project manager for the DART project at OUCRU in Ho Chi Minh city, Vietnam.",
   },
   {
     title: "Dr.",
@@ -130,7 +130,7 @@ const bios = [
     name: "Phong Hong",
     alt: "Mr. Phong Hong",
     imageUrl: "/phong-hong.jpeg",
-    bio: "x",
+    bio: "Phong has a diverse professional background in research, data analytics, and public policy, specifically in the areas of refugee response planning, infectious disease research, and COVID-19 outbreak mitigation. As a dual-degree master's student in Public Policy and Computational Epidemiology, He is dedicated to addressing health disparities through policies concerning infectious disease and economic development both domestically and internationally.",
   },
   {
     title: "Mr.",
