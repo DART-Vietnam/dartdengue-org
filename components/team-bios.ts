@@ -2,6 +2,7 @@ const bios = [
   {
     title: "Dr.",
     name: "Sarah Sparrow",
+    pi: true,
     alt: "Dr. Sarah Sparrow",
     imageUrl: "/sarah-sparrow.jpg",
     bio: "Sarah holds a DPhil in Atmospheric Physics from the University of Oxford where she is currently the programme coordinator for the climateprediction.net distributed computing project and deputy course director of the Energy Systems MSc. Her research centres on extreme weather events and their impacts, with a focus on using data driven coupling between meteorological and impact models to answer societally relevant questions across a broad range of sectors including health, hydrology, energy and finance.",
@@ -9,6 +10,7 @@ const bios = [
   {
     title: "Assoc. Prof.",
     name: "Sophie Yacoub",
+    copi: true,
     alt: "Assoc. Prof. Sophie Yacoub",
     imageUrl: "/sophie-yacoub.jpg",
     bio: "Sophie is the Dengue Research Group lead at OUCRU-Vietnam, appointed in 2018. She’s a Physician in Infectious Diseases and General Medicine and holds an honorary Consultant appointment at London North West University Healthcare NHS Trust in the UK. She holds a PhD from Imperial College London and an MSc from the London School of Hygiene and Tropical Medicine.",
@@ -16,6 +18,7 @@ const bios = [
   {
     title: "Dr.",
     name: "Marc Choisy",
+    copi: true,
     alt: "Dr. Marc Choisy",
     imageUrl: "/marc-choisy.jpg",
     bio: "Marc is the Head of Mathematical Modelling at OUCRU in Ho Chi Minh city, Vietnam. He holds a MSc in Biostatistics, a MSc in Ecology & Evolution, and a PhD in Integrative Biology from the University of Montpellier, France. He is an Associate Editor of the PLoS Neglected Tropical Diseases journal and an honorary Associate Professor at the Hong Kong University (School of Public Health).",
