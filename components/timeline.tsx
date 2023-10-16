@@ -80,7 +80,7 @@ export default function Timeline() {
       <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Project timeline</h2>
       {
         timelineContent.map((section) => (
-          <TimelineSection title={section.title} color={section.color} milestones={section.milestones} />
+          <TimelineSection key={section.title} title={section.title} color={section.color} milestones={section.milestones} />
         ))
       }
     </div>
