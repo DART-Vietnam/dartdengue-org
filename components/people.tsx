@@ -48,8 +48,8 @@ export default function People() {
         </div>
         <div className="lg:col-span-2">
           <ul className="space-y-2 grid grid-cols-1 place-items-center">
-            {bios.filter(person => Object.hasOwn(person, "pi")).map((person) => <NameCard person={person} />)}
-            {bios.filter(person => Object.hasOwn(person, "copi")).map((person) => <NameCard person={person} />)}
+            {bios.filter(person => Object.hasOwn(person, "pi")).map((person) => <NameCard person={person} key={person.name} />)}
+            {bios.filter(person => Object.hasOwn(person, "copi")).map((person) => <NameCard person={person} key={person.name} />)}
           </ul>
         </div>
       </div>
