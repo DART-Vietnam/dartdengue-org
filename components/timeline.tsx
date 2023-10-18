@@ -4,52 +4,97 @@ import milestone from "@/util/milestone";
 
 const timelineContent: timelineSect[] = [
   {
-    title: "Work Package 1",
+    title: "Data Integration",
     color: "text-red-600 bg-red-100",
     milestones: [
       {
-        title: "Acme was founded in Milan, Italy",
-        timeStr: "May, 2020",
-        description: "Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus."
+        title: "Project data platform for modelling, data integration and visualization",
+        timeStr: "Feb, 2024",
+        description: ""
       },
       {
-        title: "Reached 5K customers",
-        timeStr: "Jul, 2020",
-        description: "Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus."
+        title: "Citable Github release version of all code used within the platform on Zenodo",
+        timeStr: "Feb, 2025",
+        description: ""
+      },
+      {
+        title: "Full documentation of the developed DART system and ste-by-step guide to setup infrastructure",
+        timeStr: "Feb, 2025",
+        description: ""
+      },
+      {
+        title: "Ongoing system monitoring, updating and snagging",
+        timeStr: "Nov, 2025",
+        description: ""
       }
     ]
   },
   // ////////////////////////////
   {
-    title: "Work Package 2",
+    title: "Modelling",
     color: "text-blue-600 bg-blue-100",
     milestones: [
       {
-        title: "Acme was founded in Milan, Italy",
-        timeStr: "May, 2020",
-        description: "Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus."
+        title: "Weather forecast skill assessment for Ho Chi Minh and Hanoi with a forecast lead time of up to 7 days",
+        timeStr: "Jul, 2023",
+        description: ""
       },
       {
-        title: "Reached 5K customers",
-        timeStr: "Jul, 2020",
-        description: "Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus."
+        title: "Downscaled weather forecast of precipitation, temperature and humidity based on ECMWF forecasts",
+        timeStr: "Jan, 2024",
+        description: ""
+      },
+      {
+        title: "Expand weather forecast skill assessment for raw and calibrated data to 2 weeks forecast range",
+        timeStr: "May, 2024",
+        description: ""
+      },
+      {
+        title: "A mosquito population dynamics model that predicts adult densities based on land cover and weather variables",
+        timeStr: "Nov, 2023",
+        description: ""
+      },
+      {
+        title: "A flexible plug-and-play spatial dengue epidemiological model",
+        timeStr: "Oct, 2024",
+        description: ""
+      },
+      {
+        title: "Forcasting engines for epidemiological dynamics and hospital occupancy",
+        timeStr: "Feb, 2025",
+        description: ""
+      },
+      {
+        title: "Dengue forecast skill assessment for Ho Chi Minh and Hanoi",
+        timeStr: "Nov, 2025",
+        description: ""
       }
     ]
   },
   // ////////////////////////////
   {
-    title: "Work Package 3",
+    title: "Data Visualization",
     color: "text-green-600 bg-green-100",
     milestones: [
       {
-        title: "Acme was founded in Milan, Italy",
-        timeStr: "May, 2020",
-        description: "Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus."
+        title: "A requirement analysis document for visualization based on a series of discussion with four categories of stakeholders",
+        timeStr: "Feb, 2024",
+        description: ""
       },
       {
-        title: "Reached 5K customers",
-        timeStr: "Jul, 2020",
-        description: "Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus."
+        title: "A mobile application for disseminative visualization, forcussing on the stakeholder groups of general public and policy makers",
+        timeStr: "Feb, 2025",
+        description: ""
+      },
+      {
+        title: "A web application with multiple visualization tools for observational, analytical model-developmental and disseminative visualization",
+        timeStr: "Feb, 2025",
+        description: ""
+      },
+      {
+        title: "A citable Github version of all code for the web application",
+        timeStr: "Feb, 2025",
+        description: ""
       }
     ]
   },
