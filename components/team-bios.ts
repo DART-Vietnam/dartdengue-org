@@ -145,6 +145,13 @@ const bios: bio[] = [
     imageUrl: "/matthew-wright.jpeg",
     bio: "Matthew is a DPhil Student at the University of Oxford, working on improving seasonal forecasting. He is supervised by Tim Woollings and Antje Weisheimer.",
   },
+  {
+    title: "Mr.",
+    name: "Iago Pérez Fernández",
+    alt: "Mr. Iago Pérez Fernández",
+    imageUrl: "",
+    bio: "",
+  },
 ];
 
 bios.sort(bioAlphaComp)
