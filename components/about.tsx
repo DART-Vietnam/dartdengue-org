@@ -50,7 +50,7 @@ export default function About() {
               <figure>
                 <div className="shadow-lg h-96 aspect-w-12 aspect-h-7 lg:aspect-none">
                   <Image
-                    src="/dart_kom2.jpg"
+                    src="/hrab_meeting.HEIC"
                     alt=""
                     fill
                     className="object-cover object-center rounded-lg lg:!relative"
@@ -62,8 +62,7 @@ export default function About() {
                     aria-hidden="true"
                   />
                   <span className="ml-2">
-                    Principal Investigator, Associate Professor Sophie Yacoub at
-                    the DART Kick-off meeting
+                    Doctor Huy is presenting on DART to HRAB (health research advisory board) at OUCRU
                   </span>
                 </figcaption>
               </figure>
