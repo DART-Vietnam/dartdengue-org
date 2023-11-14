@@ -50,7 +50,7 @@ export default function About() {
               <figure>
                 <div className="shadow-lg h-96 aspect-w-12 aspect-h-7 lg:aspect-none">
                   <Image
-                    src="/hrab_meeting.HEIC"
+                    src="/hrab.jpg"
                     alt=""
                     fill
                     className="object-cover object-center rounded-lg lg:!relative"
