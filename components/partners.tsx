@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const partners = [
   {
-    src: "/wellcome_logo.jpg",
+    src: "/wellcome-logo-black.png",
     alt: "Wellcome",
   },
   {
