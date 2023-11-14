@@ -3,6 +3,10 @@ import Image from "next/image";
 
 const partners = [
   {
+    src: "/wellcome_logo.jpg",
+    alt: "Wellcome",
+  },
+  {
     src: "/oucru-logo.jpg",
     alt: "Oxford University Clinical Research Unit",
   },
