@@ -14,7 +14,7 @@ export default function MyCarousel() {
             priority={true}
           />
         </div>
-        <div className="w-full h-full bg-blue-500">
+        <div className="w-full h-full">
         <Image
             src="/dart_kom3.png"
             alt=""
