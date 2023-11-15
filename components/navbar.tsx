@@ -7,7 +7,7 @@ import classNames from "@/util/classNames";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Team and partners", href: "/team" },
-  { name: "Work packages", href: "#" },
+  { name: "Modelling", href: "/modelling" },
   { name: "Publications", href: "/publications" },
   { name: "News and conferences", href: "/news" },
 ];
