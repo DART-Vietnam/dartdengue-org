@@ -54,6 +54,7 @@ export default function About() {
                     alt=""
                     fill
                     className="object-cover object-center rounded-lg lg:!relative"
+                    sizes="(max-width: 768px) 100vw, 50vw"
                   />
                 </div>
                 <figcaption className="flex mt-3 text-sm text-gray-500">
@@ -62,7 +63,8 @@ export default function About() {
                     aria-hidden="true"
                   />
                   <span className="ml-2">
-                    Doctor Huy is presenting on DART to HRAB (health research advisory board) at OUCRU
+                    Doctor Huy is presenting on DART to HRAB (health research
+                    advisory board) at OUCRU
                   </span>
                 </figcaption>
               </figure>

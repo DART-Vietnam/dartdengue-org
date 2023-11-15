@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-
 const partners = [
   {
     src: "/wellcome-logo.png",
@@ -33,7 +32,6 @@ const partners = [
   },
 ];
 
-
 export default function Partners() {
   return (
     <div className="px-4 pb-12 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:pb-24">
@@ -57,6 +55,7 @@ export default function Partners() {
                   alt={partner.alt}
                   fill
                   className="object-cover object-center shadow-lg"
+                  sizes="(max-width: 768px) 50vw, 20vw"
                 />
               </div>
             </li>
@@ -64,5 +63,5 @@ export default function Partners() {
         </ul>
       </div>
     </div>
-  )
-};
+  );
+}

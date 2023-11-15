@@ -5,7 +5,7 @@ import Partners from "@/components/partners";
 export default function Team() {
   return (
     <div className="bg-white">
-      <div className="px-4 sm:px-6 lg:px-8 py-12 mx-auto max-w-7xl lg:py-16">
+      <div className="px-4 py-12 mx-auto sm:px-6 lg:px-8 max-w-7xl lg:py-16">
         <div className="space-y-12">
           <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
             Meet our team
@@ -20,6 +20,7 @@ export default function Team() {
                       alt={person.alt}
                       fill
                       className="object-cover object-center rounded-lg shadow-lg"
+                      sizes="(max-width: 768px) 100vw, 20vw"
                     />
                   </div>
                   <div className="sm:col-span-2">
