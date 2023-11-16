@@ -1,7 +1,7 @@
 const strftime = require("strftime")
 
 const ROOT_URL = 'dartdengue.org'
-const SITES = ["", "team", "publications", "news"]
+const SITES = ["", "team", "publications", "news", "modelling"]
 
 function generateSiteMap(sites) {
   return `<?xml version="1.0" encoding="UTF-8"?>
