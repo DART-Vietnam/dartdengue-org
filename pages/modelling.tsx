@@ -144,9 +144,9 @@ export default function Modelling() {
               project, larger hindcast ensembles may become available as well.
               In our testing we will be able to use both, the reduced hindcast
               ensemble size and the full 51 forecast ensemble members. The
-              horizontal resolution of ECMWF's ensemble forecasts is currently
-              18km with the prospect of an update to 9km globally with the
-              implementation of the next model cycle in early 2023. For the
+              horizontal resolution of ECMWF&apos;s ensemble forecasts is
+              currently 18km with the prospect of an update to 9km globally with
+              the implementation of the next model cycle in early 2023. For the
               verification we will be using both the latest global reanalysis
               from ECMWF, ERA-5, and station data from Hanoi and Ho Chi Min
               directly.
