@@ -111,9 +111,14 @@ export default function Modelling() {
               Modelling
             </span>
           </h1>
+          <div className="mx-auto text-base max-w-prose lg:max-w-none">
+              <h3 className="mt-10 text-xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-2xl">
+               Weather Forecasting
+              </h3>
+            </div>
           <div className="mx-auto mt-6 prose prose-lg text-gray-500 prose-indigo">
             <p>
-              Weather Forecasting ECMWF produces operational global numerical
+              ECMWF produces operational global numerical
               weather forecasts of highest quality that are based on an Earth
               system model which incorporates a vast number of observations of
               the atmosphere and oceans. These forecasts are probabilistic
@@ -151,8 +156,15 @@ export default function Modelling() {
               from ECMWF, ERA-5, and station data from Hanoi and Ho Chi Min
               directly.
             </p>
+             </div>
+            <div className="mx-auto text-base max-w-prose lg:max-w-none">
+              <h3 className="mt-10 text-xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-2xl">
+              Epidemiological modelling
+              </h3>
+            </div>
+           <div className="mx-auto mt-6 prose prose-lg text-gray-500 prose-indigo">
             <p>
-              Epidemiological modelling The purpose of the epidemiological
+              The purpose of the epidemiological
               modelling is to provide not only a forecasting engine for public
               health officials, clinicians and the general public, but also a
               tool for the scientists to explore and test mechanistical
