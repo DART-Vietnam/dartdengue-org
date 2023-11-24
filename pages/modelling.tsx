@@ -127,22 +127,30 @@ export default function Modelling() {
               for a range of prediction timescales from days (medium range) to
               weeks (extended range) and months (seasonal range). Here, we will
               start exploring the shorter time ranges and expand these to
-              multiple weeks later in the project. Precipitation, temperature
-              and humidity will be provided for the target regions of Hanoi and
-              Ho Chi Minh City. The skill of these forecasts will be evaluated
-              to establish whether they could be used directly as input for the
+              multiple weeks later in the project. 
+            <p>
+            <p>
+              Precipitation, temperature and humidity will be provided for the 
+              target regions of Hanoi and Ho Chi Minh City. The skill of these 
+              forecasts will be evaluated to establish whether they could be used directly as input for the
               integrated modelling framework. It is, however, most likely that
               downscaling and a combination with higher resolution regional
               forecast data from the National Met Service will improve the
               performance of the forecasts. Thus, suitable statistical
               downscaling techniques will be developed and applied to derive
-              forecasts at the city level for Hanoi and Ho Chi Minh. The focus
+              forecasts at the city level for Hanoi and Ho Chi Minh. 
+            <p>
+            <p>
+              The focus
               will be on the rainy season (July-December). The weather forecast
               products will be developed and tested on freely available past
               forecast data from ECMWF. These retrospective forecasts (or
               hindcasts) cover the period of the last 20 years using the same
               forecast model and will be our main data base for the development
-              phase of the dengue forecasting tool. While the operational
+              phase of the dengue forecasting tool. 
+            <p>
+            <p>
+              While the operational
               forecasts currently have ensembles sizes of 51 members, the
               hindcasts use smaller ensemble sizes (approx. 15 members).
               However, depending on the exact timing of the start of this
