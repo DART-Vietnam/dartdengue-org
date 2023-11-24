@@ -128,7 +128,7 @@ export default function Modelling() {
               weeks (extended range) and months (seasonal range). Here, we will
               start exploring the shorter time ranges and expand these to
               multiple weeks later in the project. 
-            <p>
+            </p>
             <p>
               Precipitation, temperature and humidity will be provided for the 
               target regions of Hanoi and Ho Chi Minh City. The skill of these 
@@ -139,7 +139,7 @@ export default function Modelling() {
               performance of the forecasts. Thus, suitable statistical
               downscaling techniques will be developed and applied to derive
               forecasts at the city level for Hanoi and Ho Chi Minh. 
-            <p>
+            </p>
             <p>
               The focus
               will be on the rainy season (July-December). The weather forecast
@@ -148,7 +148,7 @@ export default function Modelling() {
               hindcasts) cover the period of the last 20 years using the same
               forecast model and will be our main data base for the development
               phase of the dengue forecasting tool. 
-            <p>
+            </p>
             <p>
               While the operational
               forecasts currently have ensembles sizes of 51 members, the
@@ -190,10 +190,16 @@ export default function Modelling() {
               are extremely difficult to collect in practice and are available
               so far only from local scale research projects (e.g. World
               Mosquito Programme) and certainly not from longitudinal
-              surveillance system. In order to address these multiple purposes
+              surveillance system. 
+              </p>
+             <p>
+               In order to address these multiple purposes
               in a flexible way based on the data available, we will develop a
               plug-and-play meta-model pipeline including 3 main components as
-              outlined below: • a mosquito population dynamics model that will
+              outlined below: 
+               </p>
+             <p>
+               • a mosquito population dynamics model that will
               translate meteorological conditions into transmission capacity of
               dengue virus. This model will account for local environmental
               conditions (some parts of the urban landscape being more suitable
@@ -203,7 +209,10 @@ export default function Modelling() {
               Tran and collaborators (Ezanno et al 2015, Tran et al 2013, Cailly
               et al 2012). We will validate the model on adult mosquito data
               collected in the experimental sites of the World Mosquito
-              Programme in Vietnam (see Table1). • a human demographic and
+              Programme in Vietnam (see Table1). 
+               </p>
+               <p>
+               • a human demographic and
               behavioural model that will include data such as birth rates (that
               determine the rate of susceptible replenishment in the
               population), socio- economic status (that determines the risk of
@@ -217,7 +226,10 @@ export default function Modelling() {
               via a collaboration with the Facebook Data for Good programme.
               These analyses will help understand the risk of emergence and
               start of the dengue season in places with low/no transmission
-              during the winter months. • a dengue transmission model built on
+              during the winter months. 
+                 </p>
+             <p>
+                 • a dengue transmission model built on
               top of the two previous components. This model will account for
               the immunological status of the local population reconstructed
               from past incidence and serotype data (from 15 years of studies
@@ -225,7 +237,9 @@ export default function Modelling() {
               include interventions in the form of insecticide spreading and
               public information. These will be readily updated as new data is
               coming in and results feed directly back to policy makers.
-              Inference and forecasting targets: The modelling components may
+              </p>
+             <p>
+               Inference and forecasting targets: The modelling components may
               vary significantly based on the forecast target (size, duration of
               dengue season, maximum incidence, timing of outbreaks, risk of
               exposure, and hospital and ICU bed forecasts). We therefore build
