@@ -15,15 +15,22 @@ export default function MyCarousel() {
           />
         </div>
         <div className="w-full h-full">
-        <Image
-            src="/dart_kom3.png"
+          <Image
+            src="/annual_meeting_2024.jpeg"
             alt=""
             fill
             className="object-cover object-center"
             priority={true}
           />
         </div>
-        <div className="w-full h-full bg-green-500">
+        <div className="w-full h-full">
+          <Image
+            src="/dart_kom3.png"
+            alt=""
+            fill
+            className="object-cover object-center"
+            priority={true}
+          />
         </div>
       </Carousel>
     </div>
