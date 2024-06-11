@@ -86,7 +86,7 @@ const bios: bio[] = [
     title: "Mr.",
     name: "Rhys Inward",
     alt: "Mr. Rhys Inward",
-    imageUrl: "",
+    imageUrl: "/rhys-inward.jpeg",
     bio: "Rhys is currently a DPhil student with the Department of Biology, University of Oxford. His research focuses on using a range of computational and statistical tools, predominately utilising phylogenetics, to uncover key epidemiological parameters, the dynamics of viral evolution, and mapping viral spread throughout space and time. He is particularly interested in how different sub-sampling strategies can affect the robustness of estimations derived from genomic data",
   },
   {
@@ -154,6 +154,6 @@ const bios: bio[] = [
   },
 ];
 
-bios.sort(bioAlphaComp)
+bios.sort(bioAlphaComp);
 
 export default bios;
