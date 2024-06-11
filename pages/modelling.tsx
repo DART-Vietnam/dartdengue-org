@@ -1,6 +1,6 @@
 export default function Modelling() {
   return (
-    <div className="relative py-16 overflow-hidden bg-white">
+    <div className="relative px-4 py-12 mx-auto bg-white sm:px-6 lg:px-8 max-w-7xl lg:py-16">
       <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
         <div
           className="relative h-full mx-auto text-lg max-w-prose"
@@ -107,7 +107,7 @@ export default function Modelling() {
       <div className="relative px-4 sm:px-6 lg:px-8">
         <div className="mx-auto text-lg max-w-prose">
           <h1>
-            <span className="block mt-2 text-3xl font-extrabold leading-8 tracking-tight text-center text-gray-900 sm:text-4xl">
+            <span className="block text-3xl font-extrabold tracking-tight text-center sm:text-4xl">
               Modelling
             </span>
           </h1>

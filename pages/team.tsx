@@ -7,7 +7,7 @@ export default function Team() {
     <div className="bg-white">
       <div className="px-4 py-12 mx-auto sm:px-6 lg:px-8 max-w-7xl lg:py-16">
         <div className="space-y-12">
-          <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
+          <h2 className="text-3xl font-extrabold tracking-tight text-center sm:text-4xl">
             Meet our team
           </h2>
           <ul className="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
