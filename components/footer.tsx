@@ -68,8 +68,8 @@ export default function Footer() {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
-        <div className="pb-8 xl:grid xl:grid-cols-5 xl:gap-8">
+      <div className="px-4 py-6 mx-auto max-w-7xl sm:px-6 lg:py-8 lg:px-8">
+        {/* <div className="pb-8 xl:grid xl:grid-cols-5 xl:gap-8">
           <div className="grid grid-cols-2 gap-8 xl:col-span-4">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
@@ -91,9 +91,9 @@ export default function Footer() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="pt-8 mt-8 border-t border-gray-700 md:flex md:items-center md:justify-between">
-          <div className="flex space-x-6 md:order-2">
+        </div> */}
+        <div className="p-2 md:flex md:items-center md:justify-between">
+          <div className="flex justify-center space-x-6 md:order-2">
             {navigation.social.map((item) => (
               <a
                 key={item.name}
@@ -105,7 +105,7 @@ export default function Footer() {
               </a>
             ))}
           </div>
-          <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
+          <p className="mt-8 text-base text-center text-gray-400 md:mt-0 md:order-1">
             &copy; 2023 DART team.
           </p>
         </div>
