@@ -1,5 +1,5 @@
-import bio from "@/util/bio";
 import bioAlphaComp from "@/util/bioAlphaComp";
+import { bio } from "@/util/interfaces";
 
 const bios: bio[] = [
   {
