@@ -10,4 +10,7 @@
   .navbar-text {
     @apply block lg:text-2xl text-xl text-gray-400 font-bold rounded p-0 hover:bg-transparent hover:text-blue-800 dark:hover:text-white dark:text-gray-400 dark:hover:bg-transparent dark:border-gray-700;
   }
+
+  /* #markdownStyling {
+  } */
 }
