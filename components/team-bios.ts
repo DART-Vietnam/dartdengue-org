@@ -129,7 +129,7 @@ const bios: bio[] = [
     name: "Lucy Main",
     alt: "Ms. Lucy Main",
     imageUrl: "",
-    bio: "x",
+    bio: "-",
   },
   {
     title: "Mr.",
@@ -149,8 +149,8 @@ const bios: bio[] = [
     title: "Mr.",
     name: "Iago Pérez Fernández",
     alt: "Mr. Iago Pérez Fernández",
-    imageUrl: "",
-    bio: "",
+    imageUrl: "/iago.jpeg",
+    bio: "-",
   },
 ];
 
