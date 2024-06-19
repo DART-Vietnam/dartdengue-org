@@ -1,5 +1,5 @@
 import bios from "@/components/team-bios";
-import bio from "@/util/bio";
+import { bio } from "@/util/interfaces";
 import Image from "next/image";
 import Link from "next/link";
 
