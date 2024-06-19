@@ -1,5 +1,5 @@
-import pub from "@/util/pub";
 import dateComp from "@/util/dateComp";
+import { pub } from "@/util/interfaces";
 
 const colorCode = {
   abstract: "bg-indigo-100 text-indigo-800",
