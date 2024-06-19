@@ -1,6 +1,6 @@
-import Image from "next/image";
-import bios from "@/components/team-bios";
 import Partners from "@/components/partners";
+import bios from "@/components/team-bios";
+import Image from "next/image";
 
 export default function Team() {
   return (

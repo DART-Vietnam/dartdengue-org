@@ -1,7 +1,7 @@
-import Link from "next/link";
-import Image from "next/image";
 import bios from "@/components/team-bios";
 import bio from "@/util/bio";
+import Image from "next/image";
+import Link from "next/link";
 
 const NameCard = function ({ person }: { person: bio }) {
   return (

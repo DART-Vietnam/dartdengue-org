@@ -1,8 +1,8 @@
+import classNames from "@/util/classNames";
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import { useRouter } from "next/router";
 import Link from "next/link";
-import classNames from "@/util/classNames";
+import { useRouter } from "next/router";
 
 const navigation = [
   { name: "Home", href: "/" },

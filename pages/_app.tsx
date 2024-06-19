@@ -1,9 +1,9 @@
 import Layout from "@/components/layout";
-import "../styles/globals.css";
+import { Analytics } from "@vercel/analytics/react";
 import type { AppProps } from "next/app";
 import localFont from "next/font/local";
 import Head from "next/head";
-import { Analytics } from '@vercel/analytics/react';
+import "../styles/globals.css";
 
 const foundrySterling = localFont({
   src: [
@@ -41,18 +41,12 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           content="DART - Dengue Advanced Readiness Tools, is a multifaceted dengue outbreak forecasting system. It is an ongoing project by Oxford University Clinical Research Unit (OUCRU), funded by the Wellcome Trust. The project is supported by a international multidisciplinary team."
           key="desc"
         />
-        <meta
-          property="og:title"
-          content="Dengue Advanced Readiness Tools"
-        />
+        <meta property="og:title" content="Dengue Advanced Readiness Tools" />
         <meta
           property="og:description"
           content="DART - Dengue Advanced Readiness Tools, is a multifaceted dengue outbreak forecasting system"
         />
-        <meta
-          property="og:image"
-          content="/dart_logo.png"
-        />
+        <meta property="og:image" content="/dart_logo.png" />
       </Head>
       <main className={foundrySterling.className}>
         <Layout>

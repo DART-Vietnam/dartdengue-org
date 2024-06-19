@@ -1,6 +1,6 @@
 import classNames from "@/util/classNames";
-import timelineSect from "@/util/timelineSect";
 import milestone from "@/util/milestone";
+import timelineSect from "@/util/timelineSect";
 
 const timelineContent: timelineSect[] = [
   {

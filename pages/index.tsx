@@ -1,5 +1,5 @@
-import MyCarousel from "@/components/carousel";
 import About from "@/components/about";
+import MyCarousel from "@/components/carousel";
 import People from "@/components/people";
 // import UnderDevelopmentPopup from "@/components/popup";
 import Partners from "@/components/partners";
