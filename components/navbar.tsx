@@ -8,8 +8,8 @@ const navigation = [
   { name: "Home", href: "/" },
   { name: "Team and partners", href: "/team" },
   { name: "Modelling", href: "/modelling" },
-  { name: "Publications", href: "/publications" },
-  { name: "News and conferences", href: "/news" },
+  { name: "On the news", href: "/news" },
+  { name: "Press release", href: "/press" },
 ];
 
 export default function Navbar() {
