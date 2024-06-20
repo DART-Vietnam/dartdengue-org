@@ -9,7 +9,9 @@ export const getAllNewsIds = async () => {
   const dPath = join(process.cwd(), "news_posts");
   const fnames = await readdir(dPath);
 
-  return fnames.map((fname) => fname.replace(/\.md$/, ""));
+  return fnames
+    .filter((fname) => fname.endsWith(".md"))
+    .map((fname) => fname.replace(/\.md$/, ""));
 };
 
 export const getNewsData = async (id: string) => {

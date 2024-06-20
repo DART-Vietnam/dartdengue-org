@@ -51,7 +51,7 @@ export default function NewsIndex(props: { allNewsMetaData: newsMetadata[] }) {
           ))
         ) : (
           <div className="italic text-center text-gray-500 col-span-full">
-            There is nothing here at the moment... Check back later!
+            Nothing here at the moment... Check back later!
           </div>
         )}
       </div>
