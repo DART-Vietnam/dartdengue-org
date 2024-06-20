@@ -13,7 +13,6 @@ export default function About() {
         </div>
         <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
           <div className="relative flex items-center lg:row-start-1 lg:col-start-2 ">
-            
             <div className="relative mx-auto text-base max-w-prose lg:max-w-none">
               <figure>
                 <div className="shadow-lg h-96 aspect-w-12 aspect-h-7 lg:aspect-none">
