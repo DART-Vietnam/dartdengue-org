@@ -1,0 +1,17 @@
+# Rules to create reports/news posts Markdown files
+
+- Filenames must not contain `/`. Spacing should be represented with `-` or `_`, choose one and be consistent. E.g. "july-report.md"
+- Keep the filenames short and simple, 4-5 words max.
+- Files must end with `.md`.
+
+- Files must include metadata at the start. Required metadata:
+  - `title`: Short title for the report/news post. Used by index page.
+  - `description`: Short description of the report/news post. Used by index page.
+  - The metadata must be formatted as follows:
+
+```yaml
+---
+title: report title name
+description: report short description
+---
+```
