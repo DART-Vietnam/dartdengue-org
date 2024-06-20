@@ -36,16 +36,24 @@ export default function NewsIndex(props: { allNewsMetaData: newsMetadata[] }) {
             </h3>
           </div>
         </div>
-        {props.allNewsMetaData.map((news) => (
-          <Link href={"news/" + news.id} className="block" key={news.title}>
-            <div className="p-5 transition border rounded-lg hover:shadow-2xl hover:border-none">
-              <p className="text-xl font-semibold text-gray-900">
-                {news.title}
-              </p>
-              <p className="mt-3 text-base text-gray-500">{news.description}</p>
-            </div>
-          </Link>
-        ))}
+        {props.allNewsMetaData.length > 0 ? (
+          props.allNewsMetaData.map((news) => (
+            <Link href={"news/" + news.id} className="block" key={news.title}>
+              <div className="p-5 transition border rounded-lg hover:shadow-2xl hover:border-none">
+                <p className="text-xl font-semibold text-gray-900">
+                  {news.title}
+                </p>
+                <p className="mt-3 text-base text-gray-500">
+                  {news.description}
+                </p>
+              </div>
+            </Link>
+          ))
+        ) : (
+          <div className="italic text-center text-gray-500 col-span-full">
+            There is nothing here at the moment... Check back later!
+          </div>
+        )}
       </div>
 
       <div className="grid gap-16 pt-12 mt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
