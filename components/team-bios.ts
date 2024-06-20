@@ -146,11 +146,11 @@ const bios: bio[] = [
     bio: "Matthew is a DPhil Student at the University of Oxford, working on improving seasonal forecasting. He is supervised by Tim Woollings and Antje Weisheimer.",
   },
   {
-    title: "Mr.",
+    title: "Dr.",
     name: "Iago Pérez Fernández",
-    alt: "Mr. Iago Pérez Fernández",
+    alt: "Dr. Iago Pérez Fernández",
     imageUrl: "/iago.jpeg",
-    bio: "-",
+    bio: "Iago holds a PhD in Geoscience from the Universidad de la Republica, Uruguay, and is currently a posdoctoral researcher in the Department of engeneering science, University of Oxford. His research focuses on large-scale atmospheric and oceanic circulation, atmospheric variability and sub-seasonal forecast evaluation.",
   },
 ];
 
