@@ -1,6 +1,6 @@
 ---
 title: "DART Annual Meeting"
-description: Summary of DART annual meeting
+description: Summary of DART annual meeting April 2024
 ---
 
 The annual meeting for the DART Project took place over two days, April 18-19, 2024, in Oxford. Attendees included project team members, partners, and representatives from our funder, Wellcome, who convened to review progress, address challenges, and plan for the upcoming year.
