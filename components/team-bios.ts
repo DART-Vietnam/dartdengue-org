@@ -152,6 +152,13 @@ const bios: bio[] = [
     imageUrl: "/iago.jpeg",
     bio: "Iago holds a PhD in Geoscience from the Universidad de la Republica, Uruguay, and is currently a posdoctoral researcher in the Department of engeneering science, University of Oxford. His research focuses on large-scale atmospheric and oceanic circulation, atmospheric variability and sub-seasonal forecast evaluation.",
   },
+  {
+    title: "Dr.",
+    name: "Yiwen Xing",
+    alt: "Dr. Yiwen Xing",
+    imageUrl: "/yiwen-xing.jpg",
+    bio: "Yiwen Xing obtained her PhD in Computer Science from King’s College London, UK, in 2024. Currently, she is working as a Postdoctoral Research Assistant in Visualization, contributing to the DART project. Her research focuses on data visualization, visual analytics, and data science.",
+  },
 ];
 
 bios.sort(bioAlphaComp);
