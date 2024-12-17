@@ -3,10 +3,10 @@ import { bio } from "@/util/interfaces";
 
 const bios: bio[] = [
   {
-    title: "Dr.",
+    title: "Assoc. Prof.",
     name: "Sarah Sparrow",
     pi: true,
-    alt: "Dr. Sarah Sparrow",
+    alt: "Assoc. Prof. Sarah Sparrow",
     imageUrl: "/sarah-sparrow.jpg",
     bio: "Sarah holds a DPhil in Atmospheric Physics from the University of Oxford where she is currently the programme coordinator for the climateprediction.net distributed computing project and deputy course director of the Energy Systems MSc. Her research centres on extreme weather events and their impacts, with a focus on using data driven coupling between meteorological and impact models to answer societally relevant questions across a broad range of sectors including health, hydrology, energy and finance.",
   },
@@ -41,11 +41,11 @@ const bios: bio[] = [
     bio: "Thanh holds a PhD in Meteorology from the University of Paris VI in 2005. He is currently an Associate Professor, Co-Director of the Department of Space and Applications (DSA), and Co-Director of the LOTUS International Joint Laboratory (http://lotus.usth.edu.vn) at the University of Science and Technology of Hanoi (USTH). He is also a member of the Scientific Committee in Earth and Environmental Sciences of the Vietnam National Foundation for Science and Technology Development (NAFOSTED). Using modelling and remote sensing tools, his research focuses on the topics of natural disasters and climate change, including floods and heavy rainfall mechanisms.",
   },
   {
-    title: "Assoc. Prof.",
+    title: "Prof.",
     name: "Moritz Kraemer",
-    alt: "Assoc. Prof. Moritz Kraemer",
+    alt: "Prof. Moritz Kraemer",
     imageUrl: "/moritz-kraemer.jpg",
-    bio: "Moritz is an Associate Professor at the Department of Biology, Pandemic Sciences Institute, and AI and Machine Learning Fellow at Reuben College. My lab members and I take novel, collaborative and interdisciplinary approaches to investigating the dynamics and evolution of infectious diseases, focussing on epidemiologically relevant questions to control them. We approach these problems by developing novel methods that combine techniques from mathematical modelling, statistical inference (including AI and Machine Learning), and phylodynamics. I hold a DPhil in Statistical Epidemiology from the University of Oxford, taught courses at MIT, HKU & Harvard University.",
+    bio: "Moritz is an Associate Professor at the Department of Biology, Pandemic Sciences Institute, and AI and Machine Learning Fellow at Reuben College. His lab members and he take novel, collaborative and interdisciplinary approaches to investigating the dynamics and evolution of infectious diseases, focussing on epidemiologically relevant questions to control them. They approach these problems by developing novel methods that combine techniques from mathematical modelling, statistical inference (including AI and Machine Learning), and phylodynamics. He holds a DPhil in Statistical Epidemiology from the University of Oxford, taught courses at MIT, HKU & Harvard University.",
   },
   {
     title: "Prof.",
