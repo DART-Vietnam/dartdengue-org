@@ -54,6 +54,19 @@ const posts: pub[] = [
       imageUrl: "/phong-hong.jpeg",
     },
   },
+  {
+    title:
+      "Skilful probabilistic medium‐range precipitation and temperature forecasts over Vietnam for the development of a future dengue early warning system",
+    href: "https://doi.org/10.1002/met.2222",
+    category: { name: "Paper", href: "#", color: colorCode["paper"] },
+    description: "Meteorological Applications",
+    date: "Aug 2024",
+    datetime: "2024-8-07",
+    author: {
+      name: "Lucy Main",
+      imageUrl: "",
+    },
+  },
 ];
 
 posts.sort(dateComp);
