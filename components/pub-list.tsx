@@ -67,6 +67,22 @@ const posts: pub[] = [
       imageUrl: "",
     },
   },
+  {
+    title: "Skill evaluation of a weather forecast model for specific humidity in Vietnam",
+    href: "http://www.meteo.fr/cic/meetings/2024/IMSC/",
+    category: {
+      name: "Poster",
+      href: "#",
+      color: colorCode["Poster"],
+    },
+    description: "15th International Meeting on Statistical Climatology (15IMSC)",
+    date: "June 24, 2024",
+    datetime: "2024-06-24",
+    author: {
+      name: "Iago Pérez Fernández",
+      imageUrl: "/iago.jpeg",
+    },
+  },
 ];
 
 posts.sort(dateComp);
