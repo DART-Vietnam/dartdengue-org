@@ -4,6 +4,7 @@ import { pub } from "@/util/interfaces";
 const colorCode = {
   abstract: "bg-indigo-100 text-indigo-800",
   paper: "bg-pink-100 text-pink-800",
+  poster: "bg-blue-100 text-blue-800"
 };
 
 const posts: pub[] = [
@@ -27,7 +28,11 @@ const posts: pub[] = [
     title:
       "Reemergence of Cosmopolitan Genotype Dengue Virus Serotype 2, Southern Vietnam",
     href: "https://doi.org/10.3201/eid2910.230529",
-    category: { name: "Paper", href: "#", color: colorCode["paper"] },
+    category: {
+      name: "Paper",
+      href: "#",
+      color: colorCode["paper"]
+    },
     description: "Emerging Infectious Diseases",
     date: "Oct 2023",
     datetime: "2023-10-01",
@@ -56,9 +61,13 @@ const posts: pub[] = [
   },
   {
     title:
-      "Skilful probabilistic medium‐range precipitation and temperature forecasts over Vietnam for the development of a future dengue early warning system",
+      "Skillful probabilistic medium-range precipitation and temperature forecasts over Vietnam for the development of a future dengue early warning system",
     href: "https://doi.org/10.1002/met.2222",
-    category: { name: "Paper", href: "#", color: colorCode["paper"] },
+    category: {
+      name: "Paper",
+      href: "#",
+      color: colorCode["paper"]
+    },
     description: "Meteorological Applications",
     date: "Aug 2024",
     datetime: "2024-8-07",
@@ -73,7 +82,7 @@ const posts: pub[] = [
     category: {
       name: "Poster",
       href: "#",
-      color: colorCode["Poster"],
+      color: colorCode["poster"],
     },
     description: "15th International Meeting on Statistical Climatology (15IMSC)",
     date: "June 24, 2024",
