@@ -30,8 +30,8 @@ export default function About() {
                     aria-hidden="true"
                   />
                   <span className="ml-2">
-                    Doctor Huy is presenting on DART to HRAB (health research
-                    advisory board) at OUCRU
+                    Doctor Huy is presenting on DART to CAB (Community
+                    Advisory Board) at OUCRU
                   </span>
                 </figcaption>
               </figure>
