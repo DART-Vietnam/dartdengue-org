@@ -3,6 +3,8 @@ title: "DART Annual Meeting"
 description: Summary of DART annual meeting April 2024
 ---
 
+![](public/annual_meeting_2024.jpeg)
+
 The annual meeting for the DART Project took place over two days, April 18-19, 2024, in Oxford. Attendees included project team members, partners, and representatives from our funder, Wellcome, who convened to review progress, address challenges, and plan for the upcoming year.
 
 Principal Investigator Sarah Sparrow kicked off the meeting with an overview of project milestones and the agenda. This was followed by Dr. Felipe Colón-González from Wellcome, who shared updates on their funding priorities, emphasizing a focus on infectious diseases and climate change.
