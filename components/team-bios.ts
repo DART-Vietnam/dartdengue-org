@@ -159,6 +159,13 @@ const bios: bio[] = [
     imageUrl: "/yiwen-xing.jpg",
     bio: "Yiwen Xing obtained her PhD in Computer Science from King’s College London, UK, in 2024. Currently, she is working as a Postdoctoral Research Assistant in Visualization, contributing to the DART project. Her research focuses on data visualization, visual analytics, and data science.",
   },
+  {
+    title: "Ms.",
+    name: "Lan Truong",
+    alt: "Ms. Lan Truong",
+    imageUrl: "/MsLan.jpg",
+    bio: "Lan is the head of the Department of Surveillance, Warning, Preparedness, and Emergency Response to Epidemics at Ho Chi Minh City Center for Disease Control (HCDC), Vietnam. She is currently responsible for establishing the capacity to implement surveillance, forecasting systems, and emergency responses to public health emergency in Ho Chi Minh City.",
+  },
 ];
 
 bios.sort(bioAlphaComp);
