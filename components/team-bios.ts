@@ -164,7 +164,7 @@ const bios: bio[] = [
     name: "Lan Truong",
     alt: "Ms. Lan Truong",
     imageUrl: "/MsLan.jpg",
-    bio: "Lan is the head of the Department of Surveillance, Warning, Preparedness, and Emergency Response to Epidemics at Ho Chi Minh City Center for Disease Control (HCDC), Vietnam. She is currently responsible for establishing the capacity to implement surveillance, forecasting systems, and emergency responses to public health emergency in Ho Chi Minh City.",
+    bio: "Lan is the head of the Department of Surveillance, Warning, Preparedness, and Emergency Response to Epidemics at Ho Chi Minh City Center for Disease Control, Vietnam. She is currently responsible for establishing the capacity to implement surveillance, forecasting systems, and emergency responses to public health emergency in Ho Chi Minh City.",
   },
 ];
 
