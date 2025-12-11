@@ -1,7 +1,7 @@
 import Layout from "@/components/layout";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import type { AppProps } from "next/app";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import localFont from "next/font/local";
 import Head from "next/head";
 import "../styles/globals.css";
@@ -53,6 +53,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <Layout>
           <Component {...pageProps} />
           <Analytics />
+          <SpeedInsights />
         </Layout>
       </main>
     </>
