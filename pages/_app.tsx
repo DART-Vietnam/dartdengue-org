@@ -1,5 +1,6 @@
 import Layout from "@/components/layout";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import type { AppProps } from "next/app";
 import localFont from "next/font/local";
 import Head from "next/head";
