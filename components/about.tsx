@@ -20,7 +20,7 @@ export default function About() {
                     src="/hrab.jpg"
                     alt=""
                     fill
-                    className="object-cover object-center rounded-lg lg:!relative"
+                    className="object-cover object-center rounded-lg lg:relative!"
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
                 </div>

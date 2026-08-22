@@ -1,15 +1,31 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
-@layer components {
-  .navbar-text-current {
-    @apply block lg:text-2xl text-xl font-bold rounded p-0 md:bg-transparent text-oxfordBlue hover:text-white;
-  }
+@config '../tailwind.config.js';
 
-  .navbar-text {
-    @apply block lg:text-2xl text-xl text-gray-400 font-bold rounded p-0 hover:bg-transparent hover:text-blue-800 dark:hover:text-white dark:text-gray-400 dark:hover:bg-transparent dark:border-gray-700;
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
   }
+}
+
+@utility navbar-text-current {
+  @apply block lg:text-2xl text-xl font-bold rounded-sm p-0 md:bg-transparent text-oxfordBlue hover:text-white;
+}
+
+@utility navbar-text {
+  @apply block lg:text-2xl text-xl text-gray-400 font-bold rounded-sm p-0 hover:bg-transparent hover:text-blue-800 dark:hover:text-white dark:text-gray-400 dark:hover:bg-transparent dark:border-gray-700;
 
   /* #markdownStyling {
   } */

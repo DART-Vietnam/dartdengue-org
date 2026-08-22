@@ -6,7 +6,7 @@ import Link from "next/link";
 const NameCard = function ({ person }: { person: bio }) {
   return (
     <li key={person.name}>
-      <div className="flex items-center p-4 space-x-4 lg:space-x-6 sm:border sm:rounded-xl sm:shadow">
+      <div className="flex items-center p-4 space-x-4 lg:space-x-6 sm:border sm:rounded-xl sm:shadow-sm">
         <div className="relative w-16 h-16 lg:w-20 lg:h-20">
           <Image
             src={person.imageUrl}

@@ -86,7 +86,7 @@ export default function NewsIndex(props: { allNewsMetaData: newsMetadata[] }) {
               <p className="mt-3 text-base text-gray-500">{post.description}</p>
             </Link>
             <div className="flex items-center mt-6">
-              <div className="flex-shrink-0">
+              <div className="shrink-0">
                 <Link href="/team">
                   <span className="sr-only">{post.author.name}</span>
                   <div className="relative w-10 h-10">

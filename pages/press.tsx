@@ -17,7 +17,7 @@ export default function NewsAndConf() {
               key={post.title}
               className="flex flex-col overflow-hidden rounded-lg shadow-lg"
             >
-              <div className="relative flex-shrink-0 w-full h-48">
+              <div className="relative shrink-0 w-full h-48">
                 <Image
                   fill
                   className="object-cover"

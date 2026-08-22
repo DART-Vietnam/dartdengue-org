@@ -13,7 +13,7 @@ export default function UnderDevelopmentPopup() {
         showPopup ? "" : "hidden"
       }`}
     >
-      <div className="p-6 bg-white rounded shadow-lg">
+      <div className="p-6 bg-white rounded-sm shadow-lg">
         <h2 className="mb-4 text-2xl font-bold">
           Page is under active development
         </h2>
@@ -23,7 +23,7 @@ export default function UnderDevelopmentPopup() {
           Any information here does not reflect the final edit.
         </p>
         <button
-          className="px-4 py-2 mt-4 text-white bg-gray-800 rounded"
+          className="px-4 py-2 mt-4 text-white bg-gray-800 rounded-sm"
           onClick={handleClose}
         >
           Close

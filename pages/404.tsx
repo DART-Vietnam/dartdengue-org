@@ -20,7 +20,7 @@ export default function Custom404() {
             <div className="flex mt-10 space-x-3 sm:border-l sm:border-transparent sm:pl-6">
               <Link
                 href="/"
-                className="inline-flex items-center px-4 py-2 text-sm font-medium text-white border border-transparent rounded-md shadow-sm bg-oxfordBlue hover:bg-black focus:outline-none focus:ring-2 focus:ring-offset-2"
+                className="inline-flex items-center px-4 py-2 text-sm font-medium text-white border border-transparent rounded-md shadow-xs bg-oxfordBlue hover:bg-black focus:outline-hidden focus:ring-2 focus:ring-offset-2"
               >
                 Go back home
               </Link>
