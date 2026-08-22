@@ -11,6 +11,7 @@
   color utility to any element that depends on these defaults.
 */
 @layer base {
+
   *,
   ::after,
   ::before,
@@ -19,6 +20,8 @@
     border-color: var(--color-gray-200, currentcolor);
   }
 }
+
+@reference "tailwindcss";
 
 @utility navbar-text-current {
   @apply block lg:text-2xl text-xl font-bold rounded-sm p-0 md:bg-transparent text-oxfordBlue hover:text-white;
